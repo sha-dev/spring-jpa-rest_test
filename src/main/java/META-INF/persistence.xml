@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="resourcePrototype">
+		<class>jp.co.scsac.entity.Book</class>
+		<class>jp.co.scsac.entity.BookInfo</class>
+		<class>jp.co.scsac.entity.BookStatusHistory</class>
+		<class>jp.co.scsac.entity.BookStatusMaster</class>
+		<class>jp.co.scsac.entity.BookTag</class>
+		<class>jp.co.scsac.entity.ProcessTypeMaster</class>
+		<class>jp.co.scsac.entity.ReadingRecord</class>
+		<class>jp.co.scsac.entity.RecommendedRecord</class>
+		<class>jp.co.scsac.entity.RentalInfo</class>
+		<class>jp.co.scsac.entity.TagNameManagement</class>
+	</persistence-unit>
+</persistence>
